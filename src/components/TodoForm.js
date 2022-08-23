@@ -10,7 +10,7 @@ function TodoForm({ setInputText, todos, setTodos, inputText }) {
 
     function submitTodoHandler(e) {
         e.preventDefault();
-        setTodos([...todos,{text: inputText, id:uuidv4()}])
+        setTodos([...todos,{text: inputText, id:uuidv4(), completed:false}])
         setInputText("");
     }
 
