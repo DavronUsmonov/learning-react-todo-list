@@ -14,6 +14,7 @@
 .todo {
     display:flex;
     margin-bottom:5px;
+    flex:1;
 }
 
 .complete-btn {
@@ -30,21 +31,31 @@
 }
 
 .App {
+    text-align: center;
     display:flex;
-    flex-direction:column;
+    height: 100%;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .todo-form {
     display:flex;
+    align-items: center;
+    min-width: 400px;
+    justify-content: center;
 }
 
 .todo-list {
     display:flex;
     flex-direction: column;
+    align-items: center;
+
 }
 
 .completed {
     text-decoration: line-through;
+    opacity: 0.5;
 }
+
 
