@@ -6,15 +6,19 @@
 
 .todo-item {
     list-style: none;
-    border:1px solid black;
-    padding-left: 10px;
-    padding-right: 10px;
+    flex: 1;
+    padding: 0rem 0.5rem 0.2rem;
+    border: 1px solid black;
 }
 
 .todo {
-    display:flex;
+    display: flex;
     margin-bottom:5px;
-    flex:1;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    text-align: left;
+    
 }
 
 .complete-btn {
@@ -42,15 +46,15 @@
 .todo-form {
     display:flex;
     align-items: center;
-    min-width: 400px;
     justify-content: center;
 }
 
 .todo-list {
     display:flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-
+    min-width: 20%;
 }
 
 .completed {
